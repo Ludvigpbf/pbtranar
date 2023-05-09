@@ -1,4 +1,4 @@
-### PBtranar
+# PBtranar
 
 Welcome to PBtranar, a website dedicated to sharing my journey towards better health after struggling with back pain. Here you'll find healthy recipes, blog posts, and updates on my progress.
 
