@@ -43,4 +43,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-If you have any questions or comments, please feel free to reach out to me via email or Instagram. Thank you for visiting PBtranar!
+If you have any questions or comments, please feel free to reach out to me via email: ludvig.flyckt@gmail.com or Instagram @pbtranar. Thank you for visiting PBtranar!
