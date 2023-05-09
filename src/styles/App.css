@@ -1,0 +1,180 @@
+.home-section .latest-posts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-section .latest-posts .posts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35rem;
+  margin-left: 15rem;
+}
+.home-section .latest-posts .posts img {
+  width: 15vw;
+  padding: 1rem;
+}
+.home-section .latest-posts article {
+  background-color: rgb(41, 41, 41);
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home-section .latest-posts article h2 {
+  color: white;
+}
+.home-section .latest-posts article p {
+  color: white;
+}
+.home-section .quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.home-section .quote h2 {
+  width: 35rem;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+}
+.home-section .quote .quote-one {
+  margin-right: 10rem;
+}
+.home-section .quote .quote-two {
+  margin-left: 25rem;
+}
+.home-section .quote p {
+  color: rgb(208, 208, 208);
+  font-style: italic;
+  font-weight: 100;
+}
+.home-section .latest-recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  scroll-behavior: smooth;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.home-section .latest-recipes h2 {
+  color: white;
+}
+.home-section .latest-recipes .recipes {
+  display: flex;
+  width: 60rem;
+  overflow-x: scroll;
+}
+.home-section .latest-recipes .recipes img {
+  width: 15vw;
+  padding: 1rem;
+}
+
+.about-section h1 {
+  margin: 0;
+}
+
+.food-section h1 {
+  margin: 0;
+}
+
+.blog-section h1 {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../src/assets/images/pushups2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+.header div {
+  background-image: url(../src/assets/images/handlebar6.png);
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5rem;
+  margin-bottom: 12rem;
+}
+.header div a {
+  font-size: 1.8rem;
+  text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.608);
+  color: rgb(252, 255, 246);
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin-right: 10rem;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+  margin: 1rem;
+  /* 
+  #home {}
+
+  #blog {}
+
+  #food {}
+
+  #about {} */
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.footer {
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer h2 {
+  color: white;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,20 @@
+@import "_home";
+@import "_about";
+@import "_food";
+@import "_blog";
+@import "_header";
+@import "_navbar";
+@import "_adds";
+@import "_footer";
+@import "_mixins";
+
+* {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+
+
+}
